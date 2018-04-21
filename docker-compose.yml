@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  my-blog-app:
+    image: myblogapp
+    build:
+      context: .\my-blog-app
+      dockerfile: Dockerfile
